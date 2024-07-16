@@ -144,14 +144,6 @@ Ever felt confused about where you stored your files or where to store them? May
 >
 > - None
 
-### SecureVault
-
-- A plugin which helps secure your folders and data. This will automatically password protect your information including your config file, backups and more.
-
-> _Dependencies:_
->
-> - None
-
 ### AccessControl
 
 - A plugin that allows users to set access permissions for individual files and folders. Supports role-based access control to manage permissions for different user roles.
