@@ -32,6 +32,14 @@ Ever felt confused about where you stored your files or where to store them? May
 
 ## Features included with plugins
 
+### PowerRename
+
+- A plugin that helps you rename a file to a better suitable name.
+
+> _Dependencies:_
+>
+> - None
+
 ### NeuroSort
 
 - A plugin helping you to sort files based on their connection to other files. This could, for example, utilize metadata.
