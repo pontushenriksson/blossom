@@ -1,5 +1,7 @@
 # Blossom file organizer
 
+_Under development_
+
 Ever felt confused about where you stored your files or where to store them? Maybe you downloaded files you wanted to keep into the downloads folder and accidentally cleared it and lost the files you wanted to keep? That for sure has happened to me, and that is why I started working on this project.
 
 # Blossom File Organizer - Base version
