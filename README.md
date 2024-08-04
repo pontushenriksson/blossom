@@ -1,4 +1,4 @@
-# Blossom file organizer
+# Blossom File Organizer
 
 _Under development_
 
@@ -6,20 +6,22 @@ Ever felt confused about where you stored your files or where to store them? May
 
 # Blossom File Organizer - Base version
 
+I have chosen to make the base version as minimal as possible to minimize on the things included that you don't want. I have used products like Obsidian.md and others which I believe are great but they include many features I don't like or need and therefore I don't want to do that to you. Use the base version together with whatever plugins you want to use based on the features you want and need.
+
 ## Features included in the base version
 
-### File Management
+### File management
 
-- **Basic Sorting and Organizing:**
+- **Basic sorting and organizing:**
 
   - Organize files by name and filetype.
   - Move, copy, delete, and rename files.
 
-- **Folder Structure:**
+- **Folder structure:**
   - Create, delete, and rename folders.
   - Support for nested folders.
 
-### Search Functionality
+### Search functionality
 
 - **Search:**
   - Basic search functionality to find files by name.
@@ -27,155 +29,110 @@ Ever felt confused about where you stored your files or where to store them? May
 ### Configuration
 
 - **User Settings:**
-  - Basic configuration options for user preferences like customized sort phrases, tags or names.
+  - Basic configuration options for user preferences like customized sort phrases, tags, or names.
   - Save and load user settings.
 
-# Plugins (not yet implemented)
+# Plugins (Not yet implemented)
 
 ## Features included with plugins
 
-### PowerRename
+### [PowerRename](https://github.com/pontushenriksson/blossom-powerrename)
 
-- A plugin that helps you rename a file to a better suitable name.
+A plugin that helps you rename a file to a better suitable name based on my styleguide.
 
-> _Dependencies:_
->
-> - None
+### [NeuroSort](https://github.com/pontushenriksson/blossom-neurosort)
 
-### NeuroSort
+A plugin helping you to sort files based on their connection to other files. This could for example utilize metadata.
 
-- A plugin helping you to sort files based on their connection to other files. This could, for example, utilize metadata.
+### [LexiSort](https://github.com/pontushenriksson/blossom-lexisort)
 
-> _Dependencies:_
->
-> - None
+A plugin helping you to sort files based on a lexicon or dictionary you created.
 
-### LexiSort
+### [ArchiFile](https://github.com/pontushenriksson/blossom-archifile)
 
-- A plugin helping you to sort files based on a lexicon or dictionary you created.
+A plugin with comprehensive archiving functionality for archiving files. This could be used together with `FileSense` to automatically archive files that seem to not have been used in a long time.
 
-> _Dependencies:_
->
-> - None
+> [!IMPORTANT]
+> Requires FileSense
 
-### ArchiFile
+### [CogniPulse](https://github.com/pontushenriksson/blossom-cognipulse)
 
-- A plugin with comprehensive archiving functionality for archiving files. This could be used together with `FileSense` to automatically archive files that seem to not have been used in a long time.
+A plugin that organizes files dynamically based on usage. This could be set up to utilize a folder structure based on usage.
 
-> _Dependencies:_
->
-> - `FileSense`
+### [ChronoFile](https://github.com/pontushenriksson/blossom-chronofile)
 
-### CogniPulse
+A plugin that handles metadata related to time, for example when a file was created and last modified. This plugin is basic but not in the core app since some might not want to share that due to privacy reasons.
 
-- A plugin that organizes files dynamically based on usage. This could be set up to utilize a folder structure based on usage.
+### [SizeInsight](https://github.com/pontushenriksson/blossom-sizeinsight)
 
-> _Dependencies:_
->
-> - None
+A plugin that handles metadata related to data size and how it changed over the last modification.
 
-### ChronoFile
+### [UsageStats](https://github.com/pontushenriksson/blossom-usagestats)
 
-- A plugin that handles metadata related to time, for example when a file was created and last modified. This plugin is basic but not in the core app since some might not want to share that due to privacy reasons.
+A plugin that displays the size of files and folders and how it has changed over time. It also maps out the distribution of file types across directories, helping users understand their file composition.
 
-> _Dependencies:_
->
-> - None
+> [!IMPORTANT]
+> Requires SizeInsight
 
-### SizeInsight
+### [FileSense](https://github.com/pontushenriksson/blossom-filesense)
 
-- A plugin that handles metadata related to data size and how it changed over the last modification.
+A plugin that determines whether a file is in use or it should be archived based on a specific algorithm and data gathered from `ChronoFile`.
 
-> _Dependencies:_
->
-> - None
+> [!IMPORTANT]
+> Requires ChronoFile
 
-### UsageStats
+### [FileMinder](https://github.com/pontushenriksson/blossom-fileminder)
 
-- A plugin that displays the size of files and folders and how it has changed over time. It also maps out the distribution of file types across directories, helping users understand their file composition.
+A plugin that could remind users of where a file is located.
 
-> _Dependencies:_
->
-> - `SizeInsight`
+### [Medula](https://github.com/pontushenriksson/blossom-medula)
 
-### FileSense
+A plugin that could create reminders and remind users about activities.
 
-- A plugin that determines whether a file is in use or it should be archived based on a specific algorithm and data gathered from `ChronoFile`.
+### [Activities](https://github.com/pontushenriksson/blossom-activities)
 
-> _Dependencies:_
->
-> - `ChronoFile`
+A plugin that could create to-dos. This plugin could work better with `Medula`.
 
-### FileMinder
+> [!IMPORTANT]
+> Requires Medula
 
-- A plugin that could remind users of where a file is located.
+### [StabiliFile](https://github.com/pontushenriksson/blossom-stabilifile)
 
-> _Dependencies:_
->
-> - None
+Creates systematic backups of the whole structure so if something goes wrong, all or most of the content could be retrieved. This works as a backup system and could be great if you later want to switch to another device. This also stores your latest config file.
 
-### Medula
+### [FileSync](https://github.com/pontushenriksson/blossom-filesync)
 
-- A plugin that could create reminders and remind users about activities.
+A plugin which helps synchronizing files across devices.
 
-> _Dependencies:_
->
-> - None
+### [SecureVault](https://github.com/pontushenriksson/blossom-securevault)
 
-### Activities
+A plugin which helps secure your folders and data. This will automatically password protect your information including your config file, backups and more.
 
-- A plugin that could create to-dos. This plugin could work better with `Medula`.
+### [AccessControl](https://github.com/pontushenriksson/blossom-accesscontrol)
 
-> _Dependencies:_
->
-> - `Medula`
+A plugin that allows users to set access permissions for individual files and folders. Supports role-based access control to manage permissions for different user roles.
 
-### StabiliFile
+> [!IMPORTANT]
+> Requires SecureVault
 
-- Creates systematic backups of the whole structure so if something goes wrong, all or most of the content could be retrieved. This works as a backup system and could be great if you later want to switch to another device. This also stores your latest config file.
+### [SecurityMonitoring](https://github.com/pontushenriksson/blossom-securitymonitoring)
 
-> _Dependencies:_
->
-> - None
+A plugin that saves how many times the files/folders have been opened and what time to let users check if any unauthorized users have checked their files while they have been gone.
 
-### FileSync
+> [!IMPORTANT]
+> Requires SecureVault
 
-- A plugin which helps synchronizing files across devices.
+### [DupliCheck](https://github.com/pontushenriksson/blossom-duplicheck)
 
-> _Dependencies:_
->
-> - None
+A plugin that helps users check for duplicate files.
 
-### SecureVault
+> [!IMPORTANT]
+> Requires ChronoFile, UsageStats, SizeInsight
 
-- A plugin which helps secure your folders and data. This will automatically password protect your information including your config file, backups and more.
+### [GitLabMirroring](https://github.com/pontushenriksson/blossom-gitlabmirroring)
 
-> _Dependencies:_
->
-> - None
+A plugin that lets you always have the latest version of a GitLab repository available locally. This will download the latest version of the repository but _NOT_ update the repository based on local changes.
 
-### AccessControl
+### [GitHubMirroring](https://github.com/pontushenriksson/blossom-githubmirroring)
 
-- A plugin that allows users to set access permissions for individual files and folders. Supports role-based access control to manage permissions for different user roles.
-
-> _Dependencies:_
->
-> - `SecureVault`
-
-### SecurityMonitoring
-
-- A plugin that saves how many times the files/folders have been opened and what time to let users check if any unauthorized users have checked their files while they have been gone.
-
-> _Dependencies:_
->
-> - `SecureVault`
-
-### DupliCheck
-
-- A plugin that helps users check for duplicate files.
-
-> _Dependencies:_
->
-> - `ChronoFile`
-> - `UsageStats`
-> - `SizeInsight`
+A plugin that lets you always have the latest version of a GitHub repository available locally. This will download the latest version of the repository but _NOT_ update the repository based on local changes.
