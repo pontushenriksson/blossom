@@ -1,0 +1,83 @@
+{
+  "Categories": {
+    "Software": {
+      "exe": "Executable files",
+      "java": "Java programs",
+      "class": "Java programs",
+      "py": "Python files",
+      "c": "C programs",
+      "cpp": "C++ programs",
+      "js": "JavaScript files",
+      "html": "HTML files",
+      "css": "CSS files",
+      "php": "PHP files",
+      "rb": "Ruby files",
+      "sh": "Shell scripts",
+      "bat": "Batch files",
+      "swift": "Swift files",
+      "rs": "Rust files"
+    },
+    "Documents": {
+      "txt": "Text files",
+      "pdf": "PDF files",
+      "doc": "Word documents",
+      "docx": "Word documents",
+      "xlsx": "Excel files",
+      "xls": "Excel files",
+      "ppt": "PowerPoint files",
+      "pptx": "PowerPoint files",
+      "rtf": "Rich Text Format",
+      "odt": "OpenDocument Text",
+      "ods": "OpenDocument Spreadsheet",
+      "odp": "OpenDocument Presentation",
+      "md": "Markdown files",
+      "tex": "LaTeX files"
+    },
+    "Images": {
+      "jpg": "JPEG image",
+      "jpeg": "JPEG image",
+      "png": "PNG image",
+      "raw": "RAW image",
+      "gif": "GIF image",
+      "bmp": "Bitmap image",
+      "tiff": "TIFF image",
+      "svg": "Scalable Vector Graphics",
+      "ico": "Icon image",
+      "webp": "WebP image"
+    },
+    "Audio": {
+      "mp3": "MP3 audio",
+      "wav": "WAV audio",
+      "aac": "AAC audio",
+      "flac": "FLAC audio",
+      "ogg": "Ogg Vorbis audio",
+      "wma": "Windows Media Audio",
+      "m4a": "MPEG-4 audio"
+    },
+    "Videos": {
+      "mp4": "MP4 video",
+      "mkv": "MKV video",
+      "avi": "AVI video",
+      "mov": "MOV video",
+      "wmv": "Windows Media Video",
+      "flv": "Flash Video",
+      "webm": "WebM video"
+    },
+    "Archives": {
+      "zip": "ZIP archive",
+      "rar": "RAR archive",
+      "tar": "TAR archive",
+      "gz": "GZIP archive",
+      "7z": "7-Zip archive",
+      "iso": "ISO disc image"
+    },
+    "Data": {
+      "csv": "CSV file",
+      "json": "JSON file",
+      "xml": "XML file",
+      "sql": "SQL database file",
+      "db": "Database file",
+      "log": "Log file"
+    }
+  }
+}
