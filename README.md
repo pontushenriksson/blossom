@@ -6,7 +6,7 @@ Ever felt confused about where you stored your files or where to store them? May
 
 # Blossom File Organizer - Base version
 
-I have chosen to make the base version as minimal as possible to minimize on the things included that you don't want. I have used products like Obsidian.md and others which I believe are great but they include many features I don't like or need and therefore I don't want to do that to you. Use the base version together with whatever plugins you want to use based on the features you want and need.
+I have chosen to make the base version as minimal as possible to minimize the things included that you don't want. I have used products like `Obsidian.md` and others which I believe are great but they include many features I don't like or need and therefore I don't want to do that to you. Use the base version together with whatever plugins you want to use based on the features you want and need.
 
 ## Features included in the base version
 
@@ -14,7 +14,7 @@ I have chosen to make the base version as minimal as possible to minimize on the
 
 - **Basic sorting and organizing:**
 
-  - Organize files by name and filetype.
+  - Organize files by name and file type.
   - Move, copy, delete, and rename files.
 
 - **Folder structure:**
@@ -38,15 +38,15 @@ I have chosen to make the base version as minimal as possible to minimize on the
 
 ### [PowerRename](https://github.com/pontushenriksson/blossom-powerrename)
 
-A plugin that helps you rename a file to a better suitable name based on my styleguide.
+A plugin that helps you rename a file to a better suitable name based on my style guide.
 
 ### [NeuroSort](https://github.com/pontushenriksson/blossom-neurosort)
 
-A plugin helping you to sort files based on their connection to other files. This could for example utilize metadata.
+A plugin that helps you to sort files based on their connection to other files. This could for example utilize metadata.
 
 ### [LexiSort](https://github.com/pontushenriksson/blossom-lexisort)
 
-A plugin helping you to sort files based on a lexicon or dictionary you created.
+A plugin that helps you to sort files based on a lexicon or dictionary you created.
 
 ### [ArchiFile](https://github.com/pontushenriksson/blossom-archifile)
 
@@ -61,7 +61,7 @@ A plugin that organizes files dynamically based on usage. This could be set up t
 
 ### [ChronoFile](https://github.com/pontushenriksson/blossom-chronofile)
 
-A plugin that handles metadata related to time, for example when a file was created and last modified. This plugin is basic but not in the core app since some might not want to share that due to privacy reasons.
+A plugin that handles metadata related to time, for example, when a file was created and last modified. This plugin is basic but not in the core app since some might not want to share that due to privacy reasons.
 
 ### [SizeInsight](https://github.com/pontushenriksson/blossom-sizeinsight)
 
@@ -98,15 +98,15 @@ A plugin that could create to-dos. This plugin could work better with `Medula`.
 
 ### [StabiliFile](https://github.com/pontushenriksson/blossom-stabilifile)
 
-Creates systematic backups of the whole structure so if something goes wrong, all or most of the content could be retrieved. This works as a backup system and could be great if you later want to switch to another device. This also stores your latest config file.
+Creates systematic backups of the whole structure so that if something goes wrong, all or most of the content can be retrieved. This works as a backup system and could be great if you later want to switch to another device. This also stores your latest config file.
 
 ### [FileSync](https://github.com/pontushenriksson/blossom-filesync)
 
-A plugin which helps synchronizing files across devices.
+A plugin that helps synchronize files across devices.
 
 ### [SecureVault](https://github.com/pontushenriksson/blossom-securevault)
 
-A plugin which helps secure your folders and data. This will automatically password protect your information including your config file, backups and more.
+A plugin that helps secure your folders and data. This will automatically password-protect your information including your config file, backups, and more.
 
 ### [AccessControl](https://github.com/pontushenriksson/blossom-accesscontrol)
 
