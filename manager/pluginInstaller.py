@@ -1,0 +1,1 @@
+# Manages installations and dependencies

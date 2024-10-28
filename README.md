@@ -34,7 +34,7 @@ I have chosen to make the base version as minimal as possible to minimize the th
 
 # Plugins (Not yet implemented)
 
-Install all plugins [here](https://github.com/pontushenriksson/blossom_plugins).
+Install all plugins [here](https://github.com/pontushenriksson/blossom-plugins).
 
 ## Features included with plugins
 
