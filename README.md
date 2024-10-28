@@ -34,105 +34,107 @@ I have chosen to make the base version as minimal as possible to minimize the th
 
 # Plugins (Not yet implemented)
 
+Install all plugins [here](https://github.com/pontushenriksson/blossom_plugins).
+
 ## Features included with plugins
 
-### [PowerRename](https://github.com/pontushenriksson/blossom-powerrename)
+### PowerRename
 
-A plugin that helps you rename a file to a better suitable name based on my style guide.
+A plugin that helps you rename a file to a better suitable name based on my styleguide.
 
-### [NeuroSort](https://github.com/pontushenriksson/blossom-neurosort)
+### NeuroSort
 
-A plugin that helps you to sort files based on their connection to other files. This could for example utilize metadata.
+A plugin helping you to sort files based on their connection to other files. This could for example utilize metadata.
 
-### [LexiSort](https://github.com/pontushenriksson/blossom-lexisort)
+### LexiSort
 
-A plugin that helps you to sort files based on a lexicon or dictionary you created.
+A plugin helping you to sort files based on a lexicon or dictionary you created.
 
-### [ArchiFile](https://github.com/pontushenriksson/blossom-archifile)
+### ArchiFile
 
 A plugin with comprehensive archiving functionality for archiving files. This could be used together with `FileSense` to automatically archive files that seem to not have been used in a long time.
 
 > [!IMPORTANT]
 > Requires FileSense
 
-### [CogniPulse](https://github.com/pontushenriksson/blossom-cognipulse)
+### CogniPulse
 
 A plugin that organizes files dynamically based on usage. This could be set up to utilize a folder structure based on usage.
 
-### [ChronoFile](https://github.com/pontushenriksson/blossom-chronofile)
+### ChronoFile
 
-A plugin that handles metadata related to time, for example, when a file was created and last modified. This plugin is basic but not in the core app since some might not want to share that due to privacy reasons.
+A plugin that handles metadata related to time, for example when a file was created and last modified. This plugin is basic but not in the core app since some might not want to share that due to privacy reasons.
 
-### [SizeInsight](https://github.com/pontushenriksson/blossom-sizeinsight)
+### SizeInsight
 
 A plugin that handles metadata related to data size and how it changed over the last modification.
 
-### [UsageStats](https://github.com/pontushenriksson/blossom-usagestats)
+### UsageStats
 
 A plugin that displays the size of files and folders and how it has changed over time. It also maps out the distribution of file types across directories, helping users understand their file composition.
 
 > [!IMPORTANT]
 > Requires SizeInsight
 
-### [FileSense](https://github.com/pontushenriksson/blossom-filesense)
+### FileSense
 
 A plugin that determines whether a file is in use or it should be archived based on a specific algorithm and data gathered from `ChronoFile`.
 
 > [!IMPORTANT]
 > Requires ChronoFile
 
-### [FileMinder](https://github.com/pontushenriksson/blossom-fileminder)
+### FileMinder
 
 A plugin that could remind users of where a file is located.
 
-### [Medula](https://github.com/pontushenriksson/blossom-medula)
+### Medula
 
 A plugin that could create reminders and remind users about activities.
 
-### [Activities](https://github.com/pontushenriksson/blossom-activities)
+### Activities
 
 A plugin that could create to-dos. This plugin could work better with `Medula`.
 
 > [!IMPORTANT]
 > Requires Medula
 
-### [StabiliFile](https://github.com/pontushenriksson/blossom-stabilifile)
+### StabiliFile
 
-Creates systematic backups of the whole structure so that if something goes wrong, all or most of the content can be retrieved. This works as a backup system and could be great if you later want to switch to another device. This also stores your latest config file.
+Creates systematic backups of the whole structure so if something goes wrong, all or most of the content could be retrieved. This works as a backup system and could be great if you later want to switch to another device. This also stores your latest config file.
 
-### [FileSync](https://github.com/pontushenriksson/blossom-filesync)
+### FileSync
 
-A plugin that helps synchronize files across devices.
+A plugin which helps synchronizing files across devices.
 
-### [SecureVault](https://github.com/pontushenriksson/blossom-securevault)
+### SecureVault
 
-A plugin that helps secure your folders and data. This will automatically password-protect your information including your config file, backups, and more.
+A plugin which helps secure your folders and data. This will automatically password protect your information including your config file, backups and more.
 
-### [AccessControl](https://github.com/pontushenriksson/blossom-accesscontrol)
+### AccessControl
 
 A plugin that allows users to set access permissions for individual files and folders. Supports role-based access control to manage permissions for different user roles.
 
 > [!IMPORTANT]
 > Requires SecureVault
 
-### [SecurityMonitoring](https://github.com/pontushenriksson/blossom-securitymonitoring)
+### SecurityMonitoring
 
 A plugin that saves how many times the files/folders have been opened and what time to let users check if any unauthorized users have checked their files while they have been gone.
 
 > [!IMPORTANT]
 > Requires SecureVault
 
-### [DupliCheck](https://github.com/pontushenriksson/blossom-duplicheck)
+### DupliCheck
 
 A plugin that helps users check for duplicate files.
 
 > [!IMPORTANT]
 > Requires ChronoFile, UsageStats, SizeInsight
 
-### [GitLabMirroring](https://github.com/pontushenriksson/blossom-gitlabmirroring)
+### GitLabMirroring
 
 A plugin that lets you always have the latest version of a GitLab repository available locally. This will download the latest version of the repository but _NOT_ update the repository based on local changes.
 
-### [GitHubMirroring](https://github.com/pontushenriksson/blossom-githubmirroring)
+### GitHubMirroring
 
 A plugin that lets you always have the latest version of a GitHub repository available locally. This will download the latest version of the repository but _NOT_ update the repository based on local changes.
